@@ -28,7 +28,7 @@
 
 int main(void)
 {
-	char temp_base_url[64] = "http://somehost:someport/";
+	char temp_base_url[64] = "http://somehost:someport/verb?";
 	char permissions[64] = "&id=somevalue";
 	int loopCounter=0;
 
