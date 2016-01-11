@@ -39,13 +39,13 @@ int main(void)
 	{
 		for (loopCounter=0; loopCounter<500; loopCounter++) 
 		{
-			turn(9);
+			turn(-9);
 			sleep(.1);
 		}
 		for (loopCounter=0; loopCounter<1000; loopCounter++) 
 		{
-			moveForward(.1);
-			sleep(.01);
+			moveForward(-.1);
+			sleep(.1);
 		}
 	}
 	return 0;
